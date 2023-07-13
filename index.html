@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>::: CalculandoTotal :::</title>
+</head>
+<body>
+    <main>
+        <div class="card">
+            <img class="imgl" src="./assets/imgs/images.jpg" alt="laptop">
+            <div class="card-title">Laptop Gamer</div>
+            <label>Cantidad:</label>
+            <input id="cantidad" type="text">
+            <label >Color:</label>
+            <input id="color" type="text" >
+            <div>Precio: 2.500.000</div>
+            <button onclick="calcularTotal()" id="calculartotal">calculartotal</button>
+        </div>
+        <div class="calculos" >
+            <ul>
+                <li>Total: <span id="pricetotal"></span></li>
+                <li>Cantidad: <span id="canttotal"></span></li>
+                <li>Color: <div id="circulocolor"></div></li>
+            </ul>
+        </div>
+    </main>
+    <script src="./assets/js/javascript.js"></script>
+</body>
+</html>
